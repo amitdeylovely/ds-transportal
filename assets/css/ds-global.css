@@ -1,0 +1,70 @@
+@import "../../build/css/variables.css"; /* Using a string */
+
+.ds-hd-nav,  .ds-ft-footer {
+    background: transparent linear-gradient(90deg, var(--sd-global-ds-grediant-start) 0%, var( --sd-global-ds-gredient-end) 100%) 0% 0% no-repeat;
+}
+.gradient-card{
+    background: transparent linear-gradient(12deg, var(--sd-global-ds-grediant-start) -80%, var( --sd-global-ds-gredient-end) 100%) 0% 0% no-repeat;
+}
+.gradient-card{
+    border-radius: var(--sd-global-ds-font-large) var(--sd-global-ds-font-large) 0px 0px;
+}
+.white-card{
+    border-radius:0px 0px var(--sd-global-ds-font-large) var(--sd-global-ds-font-large);
+    background-color:var(--sd-global-ds-white) ;
+}
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed{
+    border-radius: var(--sd-global-ds-box-radius-medium);
+    font-size: var(--sd-global-ds-font-medium);
+}
+.form-control{
+    border-color:var(--sd-global-ds-border) ;
+    border-radius: var(--sd-global-ds-box-radius-small);
+    color: var(--sd-global-ds-black) !important;
+    
+}
+.form-select, .country-number{
+    border-color:var(--sd-global-ds-border) ;
+}
+label{
+    color: var(--sd-global-ds-label-color) !important;
+    font-size: var(--sd-global-ds-font-medium) !important;
+}
+.country-number{
+    border-radius: var(--sd-global-ds-box-radius-small);
+}
+.form-check-label, .gradient-card .form-select{
+    color: var(--sd-global-ds-black) ;
+}
+.gradient-card .form-control{
+    border-color:transparent ;
+}
+.gradient-card .form-control.white-control{
+    color: var(--sd-global-ds-white) !important;
+}
+.form-check-input:checked {
+    background-color: var(--sd-global-ds-purple-primary);
+    border-color: var(--sd-global-ds-purple-primary);
+}
+#feedbackModal .modal-title, .rating-stars ul > li.star.selected > i, .ds-hd-role>li>a:hover, .ds-hd-role>li.active a, .ds-hd-role>li>a:hover>i, .ds-hd-role>li.active a>i, .ds-hd-role>li>a:focus, .ds-hd-role>li>a:focus>i, .ds-hd-logout:hover, .ds-hd-logout:focus{
+    color: var(--sd-global-ds-purple-primary);
+}
+main{
+    background-color: var(--sd-global-ds-body-color) !important;
+}
+.glb-btn .btn-primary, #feedbackModal .btn{
+    border-color: var(--sd-global-ds-purple-primary);
+    background-color: var(--sd-global-ds-purple-primary) !important;
+    border-radius: var(--sd-global-ds-box-radius-small);
+    font-size: var(--sd-global-ds-font-large);
+}
+.glb-btn .btn-secondary {
+    color: var(--sd-global-ds-black);
+    border-color: var(--sd-global-ds-black);
+    border-radius: var(--sd-global-ds-box-radius-small);
+    font-size: var(--sd-global-ds-font-large);
+}
+.mick-icon{
+    border: solid 1px var(--sd-global-ds-purple-primary);
+    color: var(--sd-global-ds-purple-primary);
+}
