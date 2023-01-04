@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Template 5</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/header.css" type="text/css"/>
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+
+</head>
+<body>	
+<!-- Header Nav Start -->
+	<nav class="navbar navbar-expand-md fixed-top ds-hd-nav">
+		<div class="container-fluid">
+			<div class="ds-hd-left">
+				<a class="ds-hd-logo" href="https://www.myhcl.com" target="_blank"><img src="assets/images/hcltech.svg" alt="HCLTech"></a>
+				<a class="ds-hd-app" href="index.html">Transportal</a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="ds-hd-right">
+					<li class="ds-hd-notification">
+						<button data-bs-toggle="dropdown" class="btn btn-secondary dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" data-bs-auto-close="outside">
+							<i class="hdr-notification"></i>
+							<span class="ds-hd-count"></span>
+							<span class="visually-hidden">Notifications</span>
+						</button>
+						<div class="dropdown-menu dropdown-menu-end ds-hd-notify">
+							<h4 class="ds-hd-heading">Notifications (04)</h4>
+							<p class="ds-hd-nothead">Today</p>
+							<ul class="ds-hd-role">
+								<li><a href="#">Notifications will visible here - 1</a></li>
+								<li><a href="#">Notifications will visible here - 2</a></li>
+							</ul>
+							<p class="ds-hd-nothead">Older</p>
+							<ul class="ds-hd-role">
+								<li><a href="#">Notifications will visible here - 1</a></li>
+								<li><a href="#">Notifications will visible here - 2</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<button class="btn btn-secondary" type="button" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+							<i class="hdr-feedback"></i>
+							<span class="visually-hidden">Feedback</span>
+						</button>
+					</li>
+					<li>
+						<button data-bs-toggle="dropdown" class="btn btn-secondary dropdown-toggle" type="button" aria-expanded="false" data-bs-auto-close="outside">
+							<i class="hdr-help"></i>
+							<span class="visually-hidden">Help</span>
+						</button>
+						<div class="dropdown-menu dropdown-menu-end ds-hd-favorite ds-hd-help">
+							<h4 class="ds-hd-heading">Help Center</h4>
+							<ul class="ds-hd-tophelp">
+								<li><a target="_blank" href="#"><i class="hdr-userManual"></i>User Manual</a></li>
+								<li><a target="_blank" href="#"><i class="hdr-faq"></i>FAQ's</a></li>
+								<li><a target="_blank" href="#"><i class="hdr-rmDashboard"></i>Demo</a></li>
+								<li><a target="_blank" href="#"><i class="hdr-video"></i>Video Tutorial</a></li>
+							</ul>
+							<ul class="ds-hd-role ds-hd-favrole">
+								<li><a href="#"><i class="hdr-relaseNote"></i>Release Note</a></li>
+								<li><a href="#"><i class="hdr-vendorStaff"></i>Vendor Staff iTime VO</a></li>
+								<li><a href="#"><i class="hdr-rmDashboard"></i>RM Dashboard Demo</a></li>
+								<li><a href="#"><i class="hdr-telecommuting"></i>Telecommuting Philippines</a></li>
+								<li><a href="#"><i class="hdr-telecommuting"></i>Telecommuting India</a></li>
+								<li><a href="#"><i class="hdr-ppt"></i>USA - PPT</a></li>
+								<li><a href="#"><i class="hdr-vendorStaff"></i>Vendor Staff New Process</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<button data-bs-toggle="dropdown" class="btn btn-secondary dropdown-toggle" type="button" aria-expanded="false" data-bs-auto-close="outside">
+							<i class="hdr-myFav"></i>
+							<span class="visually-hidden">Favorites</span>
+						</button>
+						<div class="dropdown-menu dropdown-menu-end ds-hd-favorite">
+							<h4 class="ds-hd-heading">My Favourites <a href="#" class="ds-hd-favedit"><i class="hdr-edit"></i></a></h4>
+							<ul class="ds-hd-role ds-hd-favrole">
+								<li><a href="#"><i class="hdr-iTime"></i>iTime (Time Sheet Management System)</a></li>
+								<li><a href="#"><i class="hdr-lms"></i>India LMS</a></li>
+								<li><a href="#"><i class="hdr-iBridge"></i>iBridge</a></li>
+								<li><a href="#"><i class="hdr-gcs"></i>Global Claims System</a></li>
+								<li><a href="#"><i class="hdr-transportal"></i>Transportal</a></li>
+								<li><a href="#"><i class="hdr-tas"></i>My Travel (TAS)</a></li>
+								<li><a href="#"><i class="hdr-hclToday"></i>HCL Today</a></li>
+								<li><a href="#"><i class="hdr-myApproval"></i>My Approvals</a></li>
+								<li><a href="#"><i class="hdr-smartSurvey"></i>360 Degree - Smart Survey</a></li>
+								<li><a href="#"><i class="hdr-ssd"></i>Smart Service Desk (SSD)</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<button data-bs-toggle="dropdown" class="btn btn-secondary dropdown-toggle" type="button" aria-expanded="false" data-bs-auto-close="outside">
+							<i class="hdr-internal-nav"></i>
+							<span class="visually-hidden">Internal Nav</span>
+						</button>
+						<div class="dropdown-menu dropdown-menu-end ds-hd-navmenu">
+							<div class="accordion" id="accordionExample">
+								<div class="accordion-item">
+								  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+										Time Sheet
+									</button>
+								  </h2>
+								  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<ul class="ds-hd-role">
+											<li><a href="#">On Behalf Time Entry</a></li>
+											<li><a href="#">RM Dashboard</a></li>
+										</ul>
+									</div>
+								  </div>
+								</div>
+								<div class="accordion-item">
+								  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+										My Approval
+									</button>
+								  </h2>
+								  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<ul class="ds-hd-role">
+											<li><a href="#">Time Sheet Approval</a></li>
+											<li><a href="#">Attendance Coverage Approval</a></li>
+											<li><a href="#">Off Work/My Time Approval</a></li>
+											<li><a href="#">Work From Home/Flexi/Telecommuting Approval</a></li>
+											<li><a href="#">Holiday Entry Request Approval</a></li>
+											<li><a href="#">Auto LWP Reversal Approval</a></li>
+										</ul>
+									</div>
+								  </div>
+								</div>
+								<div class="accordion-item">
+								  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+										Reports
+									</button>
+								  </h2>
+								  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<ul class="ds-hd-role">
+											<li><a href="#">Employee</a></li>
+											<li><a href="#">Approver</a></li>
+											<li><a href="#">BPO Head</a></li>
+											<li><a href="#">Admin</a></li>
+										</ul>
+									</div>
+								  </div>
+								</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header" id="panelsStayOpen-headingFour">
+									  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+										Others
+									  </button>
+									</h2>
+									<div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour" data-bs-parent="#accordionExample">
+									  <div class="accordion-body">
+										<ul class="ds-hd-role">
+											<li><a href="#">Employee</a></li>
+											<li><a href="#">Approver</a></li>
+											<li><a href="#">BPO Head</a></li>
+											<li><a href="#">Admin</a></li>
+										</ul>
+									  </div>
+									</div>
+								  </div>
+							</div>
+						</div>
+					</li>
+					<li class="ds-hd-empsec">
+						<button data-bs-toggle="dropdown" class="btn btn-secondary dropdown-toggle" type="button" aria-expanded="false" data-bs-auto-close="outside">
+							<span class="ds-hd-sap">51678907 <span class="ds-hd-emp">Employee</span></span>
+							<span class="ds-hd-name">RV</span>
+						</button>
+						<div class="dropdown-menu dropdown-menu-end ds-hd-empd">
+							<div class="ds-hd-fullempname">
+								<h5>Rahul Venketwara Narayan</h5>
+								<p>51678907<span class="ds-hd-emprole">Technical Manager</span></p>
+							</div>
+							<h5 class="ds-hd-changerole">Change Role <i class="hdr-changeRole"></i></h5>
+							<ul class="ds-hd-role ds-hd-userole">
+								<li class="active"><a href="#">Employee</a></li>
+								<li><a href="#">Approver</a></li>
+								<li><a href="#">BPO Head</a></li>
+								<li><a href="#">Admin</a></li>
+							</ul>
+							<button type="button" class="ds-hd-logout">Logout <i class="hdr-logOut"></i></button>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+<!-- Header Nav End --->
+<main>
+	<div class="container">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+			  <li class="breadcrumb-item"><a href="#"> <i class="hdr-home"></i> </a></li>
+			  <li class="breadcrumb-item active" aria-current="page">Night Cab</li>
+			</ol>
+		  </nav>
+	</div>
+<div class="container">
+	<div class="gradient-card">
+		<div class="row">
+			<div class="col-md-6">
+				 <form class="form-floating input-group">
+					<input type="email" class="form-control min-hig-70" id="floatingInputValue" placeholder="Enter your pickup location" value="Enter your pickup location">
+					<label for="floatingInputValue">Pickup *</label>
+					<div class="icon-warp mick-icon">
+						<i class="hdr-mick"></i>
+					</div>
+
+					<button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Delhi</button>
+					<ul class="dropdown-menu dropdown-menu-end">
+					  <li><a class="dropdown-item" href="#">Action</a></li>
+					  <li><a class="dropdown-item" href="#">Another action</a></li>
+					</ul>
+
+				  </form>
+				  <div class="row  mt-4">
+					<div class="col-md-6">
+						<div class="radio-group">
+						<label class="custom-label" for="floatingInputValue">Frequency *</label>
+						<form class="form-floating">
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inlineRadioOptions" checked="" id="inlineRadio1" value="option1">
+								<label class="form-check-label" for="inlineRadio1">Singel</label>
+							  </div>
+							  <div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+								<label class="form-check-label" for="inlineRadio2">Recurring</label>
+							  </div>
+						  </form>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<form class="form-floating">
+						<input type="email" class="form-control min-hig-70" id="floatingInputValue" placeholder="Fri, Jun 08" value="Fri, Jun 08">
+						<label for="floatingInputValue">Date *</label>
+						<div class="icon-warp cl-icon">
+							<i class="hdr-calendar"></i>
+						</div>
+					  </form>
+				</div>
+				  </div>
+			</div>
+			<div class="col-md-6">
+				<form class="form-floating">
+					<input type="email" class="form-control white-control min-hig-70" id="floatingInputValue" placeholder="N-79, Sector-12, Noida" value="N-79, Sector-12, Noida">
+					<label class="text-white" for="floatingInputValue">Drop*</label>
+				  </form>
+
+				  <div class="row  mt-4">
+					<div class="col-md-6">
+						<div class="radio-group">
+							<label class="custom-label" for="floatingInputValue">Journey Type *</label>
+							<form class="form-floating">
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="radio" name="inlineRadioOptions" checked="" id="inlineRadio1" value="option1">
+									<label class="form-check-label" for="inlineRadio1">09:00 PM</label>
+								  </div>
+								  <div class="form-check form-check-inline">
+									<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+									<label class="form-check-label" for="inlineRadio2">11:00 PM</label>
+								  </div>
+							  </form>
+						</div>
+					</div>
+					<div class="col-md-6">
+					  <div class="form-floating ">
+						<select class="form-select min-hig-70" id="floatingSelectGrid" aria-label="Floating label select example">
+						  <option selected>Client Visit</option>
+						  <option value="1">Lorem</option>
+						  <option value="2">Lorem</option>
+						  <option value="3">Lorem</option>
+						</select>
+						<label for="floatingSelectGrid">Reason *</label>
+					  </div>
+					</div>
+				  </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="white-card">
+		<div class="row">
+			<div class="col-md-6">
+				 <form class="form-floating co-input">
+					<input type="email" class="form-control min-hig-57" id="floatingInputValue" placeholder="Enter SAP ID / name to search" value="Enter SAP ID / name to search">
+					<label for="floatingInputValue">Co-Passenger *</label>
+					<div class="icon-warp search-icon">
+						<i class="hdr-search"></i>
+					</div>
+				  </form>
+				  
+			</div>
+			<div class="col-md-6">
+				
+
+				  <div class="row ">
+					<div class="col-md-6">
+					  <div class="form-floating ">
+						<select class="form-select min-hig-57" id="floatingSelectGrid" aria-label="Floating label select example">
+						  <option selected="">A 8&9, Sector-60, Noida</option>
+						  <option value="1">Lorem</option>
+						  <option value="2">Lorem</option>
+						  <option value="3">Lorem</option>
+						</select>
+						<label for="floatingSelectGrid">Transport Desk *</label>
+					  </div>
+					</div>
+					<div class="col-md-6">
+
+
+
+						
+
+
+
+					  <div class="form-floating min-hig-57 country-number">
+						<label for="floatingSelectGrid">Mobile Number</label>
+						<select class="custom_select">
+							<option disabled selected value="default">+91</option>
+							<option value="US">+92</option>
+							<option value="UK">+11</option>
+							<option value="IN">+22</option>
+						  </select>
+						  <input id="seller_phone1" placeholder="76543 56789" style="border: 0px solid;">
+
+						
+					  </div>
+					</div>
+				  </div>
+			</div>
+		</div>
+    <div class="row  mt-4">
+					<div class="col-md-12">
+						<form class="form-floating">
+					<input type="email" class="form-control min-hig-57" id="floatingInputValue" placeholder="Enter instructions and remarks" value="Enter instructions and remarks">
+					<label for="floatingInputValue">Remarks</label>
+					<div class="icon-warp mick-icon remark-icon">
+						<i class="hdr-mick"></i>
+					</div>
+				  </form>
+				</div>
+				
+				  </div>
+    
+	</div>
+
+
+	<div class="accordion accordion-flush mt-4" id="accordionFlushExample">
+		<div class="accordion-item">
+		  <h2 class="accordion-header" id="flush-headingOne">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+			<span>Approver:</span>
+			<span class="approver-name">Saket Kumar (40180335) </span>
+			</button>
+		  </h2>
+		  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+			<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the class. This is the first item's accordion body.</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="glb-btn text-center mt-4">
+		<button type="button" class="btn btn-secondary">Save</button>
+		<button type="button" class="btn btn-primary" id="savebtn">Submit</button>
+	</div>
+
+</div>
+
+</main>
+<!-- Footer Start -->
+<footer class="ds-ft-footer">
+	<p class="ds-ft-webspecify">Best viewed on the latest versions of MS Edge, Chrome or Safari.</p>
+	<img src="assets/images/hcl.svg"alt="hcl">
+</footer>
+<!-- Feedback Modal -->
+<div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog largeModal">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  	<h5 class="modal-title" id="feedbackModalLabel">Feedback</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true" class="icon-close"></span>
+			</button>
+		</div>
+		<div class="modal-body">
+			<div class="rating-stars">
+				<ul id="stars">
+					<li class="star selected" data-value="1"><i class="hdr-Star"></i></li>
+					<li class="star" data-value="2"><i class="hdr-Star"></i></li>
+					<li class="star" data-value="3"><i class="hdr-Star"></i></li>
+					<li class="star" data-value="4"><i class="hdr-Star"></i></li>
+					<li class="star" data-value="5"><i class="hdr-Star"></i></li>
+				</ul>
+				<div class="message">Poor</div>
+			</div>
+			<form method="POST">
+				<div class="form-group">
+					<textarea class="form-control feedRemark" rows="5" placeholder="Provide your remarks here"></textarea>
+				</div>
+			</form>
+			<div class="glb-btn mt-4 text-center">
+				<button type="button" class="btn btn-primary" id="submitFeed" data-bs-toggle="modal" data-bs-target="#successModal">Submit</button>
+			</div>
+		</div>
+	  </div>
+	</div>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/header.js">
+
+	// //attribute the option value to the input field, and then reset select value to default
+// $("select.custom_select").change(function(){
+//   $(this).next("input").val($(this).children("option:selected").text());
+//   $(this).val('default');
+// });
+
+
+
+</script>
+</body>
+</html>
