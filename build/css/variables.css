@@ -1,26 +1,28 @@
 /**
  * Do not edit directly
- * Generated on Wed, 04 Jan 2023 08:36:34 GMT
+ * Generated on Thu, 12 Jan 2023 07:57:22 GMT
  */
 
 :root {
-  --sd-global-ds-purple-primary: #5f1ebe;
-  --sd-global-ds-black: #000;
-  --sd-global-ds-label-color: #707070;
-  --sd-global-ds-radio: #5267CC;
-  --sd-global-ds-white: #fff;
-  --sd-global-ds-border: #ccc;
-  --sd-global-ds-secondary: #6C7882;
-  --sd-global-ds-grediant-start: #5f1ebe;
-  --sd-global-ds-gredient-end: #3c91ff;
-  --sd-global-ds-font-small: 12px;
-  --sd-global-ds-font-medium: 14px;
-  --sd-global-ds-font-large: 16px;
-  --sd-global-ds-box-radius-medium: 10px;
-  --sd-global-ds-box-radius-small: 4px;
-  --sd-global-ds-icon-border-color: #A98EF4;
-  --sd-global-ds-icon-border: 0.5px;
-  --sd-global-ds-icon-circle: 24px;
-  --sd-global-ds-radius-lg: 12px;
-  --sd-global-ds-body-color: #f5f5f5;
+  --sd-ds-purple-primary: #3c91ff;
+  --sd-ds-black: #000;
+  --sd-ds-label-color: #707070;
+  --sd-ds-radio: #5267CC;
+  --sd-ds-white: #fff;
+  --sd-ds-border: #ccc;
+  --sd-ds-secondary: #6C7882;
+  --sd-ds-grediant-start: #3c91ff;
+  --sd-ds-gredient-end: #5F1EBE;
+  --sd-ds-font-small: 12px;
+  --sd-ds-font-medium: 14px;
+  --sd-ds-font-large: 16px;
+  --sd-ds-box-radius-medium: 10px;
+  --sd-ds-box-radius-small: 4px;
+  --sd-ds-icon-border-color: #A98EF4;
+  --sd-ds-icon-border: 0.5px;
+  --sd-ds-icon-circle: 24px;
+  --sd-ds-radius-lg: 12px;
+  --sd-ds-body-color: #f5f5f5;
+  --sd-main-gradient: linear-gradient(90deg, #3c91ff 10%, #5F1EBE 50%);
+  --sd-btn-radius: 4px;
 }
