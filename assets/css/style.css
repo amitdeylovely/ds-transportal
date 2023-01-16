@@ -199,3 +199,10 @@ main{min-height:calc(100vh - 90px);margin-top:56px;background-color: #F5F5F5;pad
 .country-number label{
   top:-13px
 }
+.form-floating>.form-control-plaintext~label, .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label{
+  transform: none;
+  opacity: 1;
+}
+.form-floating>label{
+  top: -10px;
+}

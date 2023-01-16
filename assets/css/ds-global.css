@@ -1,10 +1,11 @@
 @import "../../build/css/variables.css"; /* Using a string */
 
-.ds-hd-nav,  .ds-ft-footer, .gradient-card  {
+.ds-hd-nav,  .ds-ft-footer  {
     background: var(--sd-main-gradient);
 }
 .gradient-card{
     border-radius: var(--sd-ds-font-large) var(--sd-ds-font-large) 0px 0px;
+    background: var(--sd-form-gradient);
 }
 .white-card{
     border-radius:0px 0px var(--sd-ds-font-large) var(--sd-ds-font-large);
@@ -33,6 +34,9 @@
 label{
     color: var(--sd-ds-label-color) !important;
     font-size: var(--sd-ds-font-medium) !important;
+}
+.form-control, .form-select, .custom_select, #seller_phone1, .input-group .btn{
+    font-size: var(--sd-ds-font-large) !important;
 }
 .country-number{
     border-radius: var(--sd-ds-box-radius-small);
