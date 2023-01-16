@@ -1,11 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Mon, 16 Jan 2023 06:16:03 GMT
+ * Generated on Mon, 16 Jan 2023 07:09:33 GMT
  */
 
 :root {
   --sd-ds-purple-primary: #5F1EBE;
   --sd-ds-black: #000;
+  --sd-ds-button-outline: #000;
   --sd-ds-label-color: #707070;
   --sd-ds-radio: #5267CC;
   --sd-ds-white: #fff;
@@ -25,8 +26,10 @@
   --sd-ds-icon-border: 0.5px;
   --sd-ds-icon-circle: 24px;
   --sd-ds-radius-lg: 12px;
-  --sd-ds-body-color: #f5f5f5;
+  --sd-ds-body-color: #E6EBF5;
   --sd-main-gradient: linear-gradient(90deg, #5F1EBE 0%, #2874F0 67%, #0F5FDC 100%);
-  --sd-form-gradient: transparent linear-gradient(251deg, #7FB6F3 0%, #6F49D5 100%);
+  --sd-form-gradient: linear-gradient(251deg, #7FB6F3 0%, #6F49D5 100%);
   --sd-btn-radius: 4px;
+  --sd-ds-input-border: 5px;
+  --sd-ds-button-font-size: 16px;
 }

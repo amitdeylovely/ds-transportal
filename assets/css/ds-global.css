@@ -19,6 +19,7 @@
     border-radius: var(--sd-ds-box-radius-medium);
     font-size: var(--sd-ds-font-medium);
 }
+.approver-name{ font-size: var(--sd-ds-font-large);}
 .radio-group, .form-select, .form-floating {
     border-radius: var(--sd-ds-box-radius-small);
 }
@@ -63,14 +64,14 @@ main{
 .glb-btn .btn-primary, #feedbackModal .btn{
     border-color: var(--sd-ds-purple-primary);
     background-color: var(--sd-ds-purple-primary) !important;
-    border-radius: var(--sd-ds-box-radius-small);
-    font-size: var(--sd-ds-font-large);
+    border-radius: var(--sd-btn-radius);
+    font-size: var(--sd-ds-button-font-size);
 }
 .glb-btn .btn-secondary {
-    color: var(--sd-ds-black);
-    border-color: var(--sd-ds-black);
+    color: var( --sd-ds-button-outline);
+    border-color: var( --sd-ds-button-outline);
     border-radius: var(--sd-btn-radius);
-    font-size: var(--sd-ds-font-large);
+    font-size: var(--sd-ds-button-font-size);
 }
 .mick-icon{
     border: solid 1px var(--sd-ds-purple-primary);
