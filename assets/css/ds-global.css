@@ -36,6 +36,10 @@ label{
     color: var(--sd-ds-label-color) !important;
     font-size: var(--sd-ds-font-medium) !important;
 }
+.form-check-label, .white-card .form-select, .custom_select, #seller_phone1{
+    font-size: var(--sd-ds-font-large) !important;
+    color: var(--sd-ds-black) !important;
+}
 .form-control, .form-select, .custom_select, #seller_phone1, .input-group .btn{
     font-size: var(--sd-ds-font-large) !important;
 }
