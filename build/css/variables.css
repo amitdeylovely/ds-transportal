@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 16 Jan 2023 07:09:33 GMT
+ * Generated on Wed, 18 Jan 2023 06:28:58 GMT
  */
 
 :root {
@@ -30,6 +30,6 @@
   --sd-main-gradient: linear-gradient(90deg, #5F1EBE 0%, #2874F0 67%, #0F5FDC 100%);
   --sd-form-gradient: linear-gradient(251deg, #7FB6F3 0%, #6F49D5 100%);
   --sd-btn-radius: 4px;
-  --sd-ds-input-border: 5px;
+  --sd-ds-input-border: 1px;
   --sd-ds-button-font-size: 16px;
 }
