@@ -1,5 +1,5 @@
 {
-    "source": ["tokens/**/*.json"],
+    "source": ["tokens/output.json"],
     "platforms": {
       "css": {
         "transformGroup": "css",

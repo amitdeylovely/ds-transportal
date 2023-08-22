@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 01 Feb 2023 10:00:55 GMT
+ * Generated on Tue, 22 Aug 2023 06:50:03 GMT
  */
 
 :root {
@@ -21,7 +21,7 @@
   --sd-ds-font-medium: 14px;
   --sd-ds-font-large: 16px;
   --sd-ds-box-radius-medium: 10px;
-  --sd-ds-box-radius-small: 4px;
+  --sd-ds-box-radius-small: 10px;
   --sd-ds-icon-border-color: #A98EF4;
   --sd-ds-icon-border: 0.5px;
   --sd-ds-icon-circle: 24px;
@@ -32,4 +32,6 @@
   --sd-btn-radius: 4px;
   --sd-ds-input-border: 1px;
   --sd-ds-button-font-size: 16px;
+  --sd-token-set-order-0: global;
+  --sd-token-set-order-1: design-system;
 }
